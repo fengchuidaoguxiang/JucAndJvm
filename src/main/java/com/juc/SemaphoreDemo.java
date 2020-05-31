@@ -22,7 +22,7 @@ public class SemaphoreDemo {
                 } finally {
                     semaphore.release();
                 }
-            },String.valueOf(i)).start();
+            }, String.valueOf(i)).start();
         }
     }
 }

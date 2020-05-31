@@ -1,7 +1,5 @@
 package com.jvm;
 
-import java.util.Random;
-
 public class T2 {
 
     public static void main(String[] args) {

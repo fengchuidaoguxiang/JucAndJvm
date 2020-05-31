@@ -1,7 +1,5 @@
 package com.juc;
 
-import java.util.concurrent.TimeUnit;
-
 class Phone{
     public static synchronized void sendEmail() throws Exception{
 

@@ -1,7 +1,5 @@
 package com.juc;
 
-import javax.sound.midi.Soundbank;
-
 @FunctionalInterface
 interface  Foo{
 //    void sayHello();

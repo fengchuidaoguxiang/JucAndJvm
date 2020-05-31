@@ -73,7 +73,7 @@ public class NotSafeDemo {
             new Thread( () -> {
                 set.add(UUID.randomUUID().toString().substring(0, 8));
                 System.out.println(set);
-            },String.valueOf(i) ).start();
+            }, String.valueOf(i) ).start();
         }
     }
 
@@ -90,7 +90,7 @@ public class NotSafeDemo {
             new Thread( () -> {
                 list.add(UUID.randomUUID().toString().substring(0, 8));
                 System.out.println(list);
-            },String.valueOf(i) ).start();
+            }, String.valueOf(i) ).start();
         }
 
 //        list.add("a");

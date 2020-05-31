@@ -1,7 +1,5 @@
 package com.juc;
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.concurrent.*;
 
 public class MyThreadPoolDemo {
